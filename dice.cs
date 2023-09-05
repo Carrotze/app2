@@ -69,7 +69,7 @@ class Dice{
 				Console.WriteLine("7. D100");
 				Console.WriteLine("8. Back to Main Menu");
 				
-				int die=uinput.fIntInput(8);
+				int die=Uinput.fIntInput(8);
 				switch (die) 
 					{
 					case 1:

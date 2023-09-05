@@ -1,6 +1,6 @@
 using System;
 
-class uinput 
+class Uinput 
 {
 	public static int fIntInput(int howmany)
 	{
