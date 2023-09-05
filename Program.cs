@@ -9,7 +9,7 @@ class Program
     void MainMenu()
     {
       //---------------Declared Variables--------------------
-int selector;
+      int selector;
       //---------------Displayed Lines-----------------------
       Console.WriteLine("DnD Character Sheet by @Carrotze");
       Console.WriteLine();
@@ -43,7 +43,7 @@ int selector;
 
 
     }
-    dicey.fRollDice();
-    //MainMenu();
+    //dicey.fRollDice();
+    MainMenu();
   }
 }
