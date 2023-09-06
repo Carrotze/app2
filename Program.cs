@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 
 class Program
 {
@@ -37,13 +37,12 @@ class Program
       //--------------Loop for User Input-------------------
 
     }
-    void selector()
-    {
-
-
-
-    }
+	Charactersheet cs = new();
+	  int i=1;
+	  Console.WriteLine(cs.AbilityScoreNames[i]);
     //dicey.fRollDice();
+	  cs.AbilityScoreNames[1]="Test";
+	  Console.WriteLine(cs.AbilityScoreNames[i]);
     MainMenu();
   }
 }
